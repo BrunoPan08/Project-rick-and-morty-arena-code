@@ -1,0 +1,22 @@
+input {
+    width:30%;
+    border-radius: 0.5rem;
+    border:0.125rem solid #007bff;
+    margin-right: 2rem;
+    box-shadow: 0.063rem 0.188rem 0.563rem rgba($color: #000000, $alpha: 0.25);
+    padding: 0.125rem 0.625rem 0.125rem 0.625rem;
+}
+
+input:focus{
+    border:0.15rem solid #007bff;
+    outline:none;
+}
+
+button {
+    border-radius: 0.2rem;
+    margin-right: 2rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    padding: 0.2rem;box-shadow: 0.063rem 0.188rem 0.563rem rgba($color: #000000, $alpha: 0.25);
+}

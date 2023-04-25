@@ -1,0 +1,24 @@
+.item {
+    padding: 10px 20px;
+    border: 0.1rem solid #0b5ed7;
+
+    .title {
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .optionButton {
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+    }
+
+    .optionButtonShow {
+        max-height: 9999;
+        overflow: hidden;
+        transition: all 1s cubic-bezier(1, 0, 1, 0);
+    }
+}

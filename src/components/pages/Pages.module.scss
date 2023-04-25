@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    max-width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+  
+    button {
+      border-radius: 0.2rem;
+      margin-right: 2rem;
+      color: #fff;
+      background-color: #007bff;
+      border: none;
+      padding: 0.2rem;
+      cursor: pointer;
+    }
+  }
